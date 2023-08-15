@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tris</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Tris</h1> <!-- Titolo del gioco -->
+    
+    <div id="board">
+
+        <!-- Griglia di gioco -->
+        <div class="cell" onclick="makeMove(0)"></div> <!-- Prima cella -->
+        <div class="cell" onclick="makeMove(1)"></div> <!-- Seconda cella -->
+        <div class="cell" onclick="makeMove(2)"></div> <!-- Terza cella -->
+        <div class="cell" onclick="makeMove(3)"></div> <!-- Quarta cella -->
+        <div class="cell" onclick="makeMove(4)"></div> <!-- Quinta cella -->
+        <div class="cell" onclick="makeMove(5)"></div> <!-- Sesta cella -->
+        <div class="cell" onclick="makeMove(6)"></div> <!-- Settima cella -->
+        <div class="cell" onclick="makeMove(7)"></div> <!-- Ottava cella -->
+        <div class="cell" onclick="makeMove(8)"></div> <!-- Nona cella -->
+    </div>
+    <button onclick="resetBoard()">Reset</button> <!-- Pulsante di reset -->
+    
+    <script src="script.js"></script>
+</body>
+</html>

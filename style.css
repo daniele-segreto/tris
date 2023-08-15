@@ -1,0 +1,26 @@
+h1 {
+    text-align: center; /* Centra il testo */
+}
+
+#board {
+    display: grid; /* Crea una griglia */
+    grid-template-columns: repeat(3, 1fr); /* Imposta 3 colonne della stessa larghezza */
+    grid-gap: 10px; /* Aggiunge uno spazio tra le celle */
+    max-width: 300px; /* Larghezza massima della griglia */
+    margin: 0 auto; /* Centra la griglia orizzontalmente */
+}
+
+.cell {
+    border: 1px solid black; /* Aggiunge un bordo nero alla cella */
+    height: 100px; /* Altezza della cella */
+    display: flex; /* Utilizza il layout flessibile */
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    align-items: center; /* Centra il contenuto verticalmente */
+    font-size: 48px; /* Dimensione del testo all'interno della cella */
+    cursor: pointer; /* Cambia il cursore del mouse al passaggio sopra la cella */
+}
+
+button {
+    display: block; /* Mostra il pulsante come blocco */
+    margin: 20px auto; /* Aggiunge margini superiori e inferiori e centra il pulsante orizzontalmente */
+}
